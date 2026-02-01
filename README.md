@@ -1,6 +1,6 @@
 # 📺 YouTube 右方向键长按倍速播放
 
-这是一个 Tampermonkey (油猴) 脚本（代码使用 AI 生成），让 YouTube 网页版拥有和 Bilibili 网页版一致的操作体验。
+这是一个 Tampermonkey (油猴) 脚本（代码使用 AI 生成），让 YouTube 网页版拥有和 Bilibili 网页版一致的视频倍速播放体验。
 
 ## ✨ 核心功能
 
