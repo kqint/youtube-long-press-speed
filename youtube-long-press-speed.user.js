@@ -19,8 +19,8 @@
         PRESS_THRESHOLD: 250,           // 长按判定阈值 (毫秒)
 
         // UI 位置与颜色
-        TIP_TOP_POSITION: '5%',         // 提示框距离顶部的位置 (越小越靠上)
-        COLOR_UI: 'rgba(0, 0, 0, 0.7)'  // 统一黑色半透明背景
+        TIP_TOP_POSITION: '5%',         // 提示框距离顶部的位置
+        COLOR_UI: 'rgba(0, 0, 0, 0.7)'  // 背景颜色
     };
 
     // --- 内部变量 ---
@@ -92,7 +92,7 @@
             longPressTimer = setTimeout(() => {
                 isLongPressActive = true;
 
-                // 🚀 长按逻辑：加速 + 强制播放
+                // 长按逻辑：加速 + 强制播放
                 video.playbackRate = CONFIG.LONG_PRESS_SPEED;
                 video.play();
 
@@ -120,7 +120,7 @@
                 video.playbackRate = 1.0;
                 hideTip();
             } else {
-                // ⏩ 短按逻辑：快进 + 强制播放
+                // 短按逻辑：快进 + 强制播放
                 video.currentTime += CONFIG.SEEK_SECONDS;
                 video.play();
 
