@@ -45,7 +45,7 @@ const CONFIG = {
 1. 安装浏览器扩展 **Tampermonkey** (Chrome / Edge / Firefox / Safari)。
 2. 点击扩展图标 -> **添加新脚本**。
 3. 删除编辑器内所有默认代码。
-4. 将脚本代码完整粘贴进去。
+4. 将 [youtube-long-press-speed.user.js](https://github.com/kqint/youtube-long-press-speed/blob/master/youtube-long-press-speed.user.js) 中的脚本代码完整粘贴进去。
 5. 按 `Ctrl + S` 保存即可生效。
 
 ## 📜 许可证
