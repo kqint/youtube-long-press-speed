@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  接管右方向键：短按快进，长按倍速播放，暂停时操作自动播放
 // @author       kqint
-// @match        https://www.youtube.com/watch*
+// @match        https://www.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @grant        none
 // ==/UserScript==
