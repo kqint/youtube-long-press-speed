@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube 右方向键长按倍速播放
 // @namespace    https://github.com/kqint
-// @version      1.0
+// @version      1.0.1
 // @description  接管右方向键：短按快进，长按倍速播放，暂停时操作自动播放
 // @author       kqint
 // @match        https://www.youtube.com/*
